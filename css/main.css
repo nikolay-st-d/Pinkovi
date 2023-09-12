@@ -3,7 +3,7 @@
 :root {
     --main-bg-color: rgb(231, 231, 231);
     --navbar-color: white;
-    --accent-color: rgb(197, 132, 82);
+    --accent-color: rgb(215, 139, 81);
     --text-color: black;
 }
 
@@ -30,4 +30,8 @@ a {
 }
 a:visited {
     color: var(--text-color);
+}
+
+ul {
+    list-style: none;
 }
