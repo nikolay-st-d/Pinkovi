@@ -1,0 +1,58 @@
+.prices {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 55vw;
+    height: 80vh;
+    border-spacing: 0.5vh;
+}
+
+.shrink {
+    width: 8vw;
+}
+
+th, td {
+    padding: 1vh;
+    margin: 1vh;
+    text-align: center;
+    background-color: var(--navbar-color);
+}
+
+.color, .color2 {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.color2 {
+    opacity: 80%;
+}
+
+td {
+    border-radius: 0.6em;
+}
+
+.prices_text {
+    display: flex;
+    justify-content: center;
+}
+
+.prices_text > div {
+    width: 38vw;
+}
+
+.prices_text p {
+    text-indent: 0;
+}
+
+  
+ul li::before {
+    content: "\2022";  
+    color: var(--accent-color); 
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
