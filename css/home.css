@@ -1,6 +1,6 @@
 :root {
     --section-size: 35vw;
-    --section-text-size: 1.4em;
+    --section-text-size: 1.2em;
 }
 
 .header_image {
@@ -31,7 +31,7 @@
 
 .features > ul{
     display: flex;
-    font-size: 1.5em;
+    font-size: var(--section-text-size);
 }
 
 .features > ul > div {
@@ -42,7 +42,6 @@
 .features i {
     margin-right: 1.3vw;
     color: var(--accent-color);
-    font-size: 1.6em;
 }
 
 .features li {

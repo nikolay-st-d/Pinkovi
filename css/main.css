@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
     --main-bg-color: rgb(243, 243, 243);
@@ -12,6 +13,10 @@ body {
     margin: 0;
     font-family: 'Monsterrat', sans-serif;
     color: var(--text-color);
+}
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
