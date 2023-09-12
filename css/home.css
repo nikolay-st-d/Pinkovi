@@ -9,7 +9,6 @@
 }
 
 .header_image {
-    width: 100%;
     height: 70vh;
     overflow: hidden;
     display: flex;
@@ -18,9 +17,60 @@
     position: relative;
 }
 
-.header_image img {
+.header_image .container {
+    height: 100%;
     width: 100%;
     position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header_image .wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    animation: slide 10s infinite;
+    align-items: center;
+}
+
+.header_image > .container > .wrapper > img {
+    height: 100vw;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-100%);
+    }
+    95%{
+        transform: translateX(-100%);
+    }
+}
+
+.header_image img {
+    width: 100%;
 }
 
 .header_image .header_image_logo {
