@@ -1,3 +1,8 @@
+:root {
+    --section-size: 35vw;
+    --section-text-size: 1.4em;
+}
+
 .header_image {
     width: 100%;
     height: 70vh;
@@ -43,4 +48,24 @@
 .features li {
     display: flex;
     align-items: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    background-color: var(--navbar-color);
+}
+
+.about h1 {
+    color: var(--accent-color);
+}
+
+.about_text {
+    width: var(--section-size);
+    font-size: var(--section-text-size)
+}
+
+.about_image {
+    margin-left: 3vh;
 }
