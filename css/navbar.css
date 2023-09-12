@@ -1,6 +1,6 @@
 header {
     background-color: var(--navbar-color);
-    height: 20vh;
+    height: var(--navbar-height);
     display: flex;
     align-items: center;
     justify-content: center;
