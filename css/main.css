@@ -17,8 +17,12 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
+    color: var(--accent-color);
 }
 
+p {
+    text-indent: 0.5em;
+  }
 
 button {
     margin: 0;

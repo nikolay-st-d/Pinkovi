@@ -1,6 +1,11 @@
 :root {
+    --about-section-size: 40vw;
     --section-size: 35vw;
     --section-text-size: 1.2em;
+    --section-images-w: 40vw;
+    --section-images-h: 60vh;
+    --section-images-image-w: 10vw;
+    --section-images-hover-w: 80vw;
 }
 
 .header_image {
@@ -49,22 +54,55 @@
     align-items: center;
 }
 
-.about {
-    display: flex;
-    justify-content: center;
-    padding: 10vh;
-    background-color: var(--navbar-color);
-}
-
-.about h1 {
-    color: var(--accent-color);
-}
-
 .about_text {
-    width: var(--section-size);
+    width: var(--about-section-size);
     font-size: var(--section-text-size)
 }
 
 .about_image {
     margin-left: 3vh;
+}
+
+.section_text {
+    width: var(--section-size);
+    font-size: var(--section-text-size)
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh;
+    background-color: var(--navbar-color);
+}
+
+.section_images {
+    display: flex;
+    width: var(--section-images-w);
+    height: var(--section-images-h);
+    transition: 500ms ease-in-out;
+    margin: 3vh;
+
+}
+
+.section_images > .image {
+    width: var(--section-images-image-w);
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+    transition: 500ms ease-in-out;
+}
+
+.section_images > .image:hover {
+    width: var(--section-images-hover-w);
+    transition: 500ms ease-in-out;
+
+}
+
+.section_images img {
+    height: 100%;
+    transition: 500ms ease-in-out;
 }
