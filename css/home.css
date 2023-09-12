@@ -108,14 +108,18 @@
     transition: 500ms ease-in-out;
 }
 
-.food {
+.food, .location {
     background-color: var(--navbar-color);
 }
 
-.food > .section_images {
+.food > .section_images, .location > .section_images {
     margin-right: 2vw;
 }
 
 .fun > .section_images {
     margin-left: 2vw;
+}
+
+.location a:visited {
+    color: var(--accent-color)
 }
