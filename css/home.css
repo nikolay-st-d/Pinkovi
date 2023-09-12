@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --main-bg-color: rgb(231, 231, 231);
+    --navbar-color: white;
+    --accent-color: rgb(197, 132, 82);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+header {
+    background-color: var(--navbar-color);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header > *{
+    margin: 3vh;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+.navbar_logo > img {
+    width: 15vw;
+}
+
+.navbar_languages img {
+    width: 2vw;
+    cursor: pointer;
+}
+
+.navbar_buttons > * {
+    margin: 1vh;
+    transition: 0.3s ease;
+}
+
+.navbar_buttons > *:hover {
+    color: var(--accent-color);
+}
+
+.navbar_book > * {
+    background-color: var(--accent-color);
+    color: white;
+    padding: 2vh 4vh;
+    border-radius: 10em;
+}
