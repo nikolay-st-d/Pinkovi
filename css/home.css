@@ -54,6 +54,10 @@
     align-items: center;
 }
 
+.about {
+    background-color: var(--navbar-color);
+}
+
 .about_text {
     width: var(--about-section-size);
     font-size: var(--section-text-size)
@@ -73,7 +77,6 @@
     justify-content: center;
     align-items: center;
     padding: 10vh;
-    background-color: var(--navbar-color);
 }
 
 .section_images {
@@ -81,8 +84,6 @@
     width: var(--section-images-w);
     height: var(--section-images-h);
     transition: 500ms ease-in-out;
-    margin: 3vh;
-
 }
 
 .section_images > .image {
@@ -105,4 +106,16 @@
 .section_images img {
     height: 100%;
     transition: 500ms ease-in-out;
+}
+
+.food {
+    background-color: var(--navbar-color);
+}
+
+.food > .section_images {
+    margin-right: 2vw;
+}
+
+.fun > .section_images {
+    margin-left: 2vw;
 }
