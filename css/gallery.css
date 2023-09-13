@@ -66,6 +66,7 @@ hr {
 
 #popup img {
     height: 90vh;
+    max-width: 90vw;
     border: 1em solid white;
 }
 
