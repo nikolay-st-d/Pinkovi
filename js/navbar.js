@@ -6,9 +6,4 @@ menu_button.addEventListener('click', () => {
     navbar_buttons.style.display = 'flex'
 })
 
-navbar_buttons.addEventListener('click', () => {
-    menu_button.style.display = 'block'
-    navbar_buttons.style.display = 'none'
-})
-
 console.log('wow')
