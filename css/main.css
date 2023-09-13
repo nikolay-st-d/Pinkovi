@@ -51,3 +51,9 @@ a:visited {
 ul {
     list-style: none;
 }
+
+@media (max-width: 600px) {
+    html,body{
+        overflow-x: hidden;
+    }
+}

@@ -14,7 +14,7 @@ header > *{
     margin: 3vh;
 }
 
-.navbar_logo > img {
+.navbar_logo img {
     width: 15vw;
 }
 
@@ -37,4 +37,61 @@ header > *{
     color: white;
     padding: 2vh 4vh;
     border-radius: 10em;
+}
+
+.hamburger_menu {
+    display: none;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right > * {
+    margin: 1vw;
+}
+
+@media (max-width: 600px) {
+    .hamburger_menu {
+        display: block;
+        font-size: 1.5em;
+    }
+
+    .navbar_logo {
+        display: none;
+    }
+
+    header {
+        padding: 1vw;
+        position: static;
+        display: flex;
+        justify-content: space-between;
+        height: min-content;
+    }
+    
+    header > *{
+        margin: 1vh;
+    }
+    
+    .navbar_languages {
+        width: max-content;
+    }
+
+    .navbar_languages img {
+        width: 5vw;
+    }
+    
+    .navbar_buttons > * {
+        margin: 0.5vw;
+    }
+
+    .navbar_buttons {
+        display: none;
+        flex-direction: column;
+    }
+    
+    .navbar_book > * {
+        padding: 1.5vh 2.5vh;
+    }
 }
