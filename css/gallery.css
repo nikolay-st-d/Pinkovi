@@ -82,3 +82,15 @@ hr {
     align-items: center;
     cursor: pointer;
 }
+
+#popup .close {
+    position: fixed;
+    top: -40%;
+    left: 92%;
+    cursor: default;
+}
+
+#popup .close i {
+    cursor: pointer;
+    font-size: 2em;
+}
