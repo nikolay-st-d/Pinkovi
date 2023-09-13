@@ -43,16 +43,37 @@ td {
     width: 38vw;
 }
 
-.prices_text p {
-    text-indent: 0;
-}
-
-  
 ul li::before {
     content: "\2022";  
     color: var(--accent-color); 
-    font-weight: bold; /* If you want it to be bold */
+    font-weight: bold; 
     display: inline-block; 
     width: 1em; 
     margin-left: -1em; 
+}
+
+@media (max-width: 600px) {    
+    table {
+        width: 30vw;
+        height: 80vh;
+    }
+    
+    .shrink, .ver{
+        width: 10vw;
+        text-orientation: sideways;
+        writing-mode: vertical-lr;
+    }
+    
+    th, td {
+        padding: 0.8vh;
+    }
+    
+    .prices_text > div {
+        width: 90vw;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
 }
