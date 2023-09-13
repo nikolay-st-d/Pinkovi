@@ -33,3 +33,24 @@
 h1 {
     font-size: 3em;
 }
+
+@media (max-width: 600px) {
+    .contacts {
+        width: 100vw;
+        height: auto;
+        margin-bottom: 3vh;
+    }
+    
+    .contacts_container {
+        flex-direction: column;
+    }
+    
+    .contact {
+        margin: 3vw 0;
+        width: 80vw;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+    }
+}
