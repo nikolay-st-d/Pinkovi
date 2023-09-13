@@ -6,6 +6,13 @@
     --section-images-h: 60vh;
     --section-images-image-w: 10vw;
     --section-images-hover-w: 80vw;
+    --mobile-about-section-size: 80vw;
+    --mobile-section-size: 80vw;
+    --mobile-section-text-size: 1em;
+    --mobile-section-images-w: 90vw;
+    --mobile-section-images-h: 40vh;
+    --mobile-section-images-image-w: 30vw;
+    --mobile-section-images-hover-w: 90vw;
 }
 
 .header_image {
@@ -175,144 +182,101 @@
 }
 
 @media (max-width: 600px) {
-    .about_image {
-        display: none;
-    }
-    
     .header_image {
-        height: 70vh;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+        height: 30vh;
     }
-    
-    .header_image .container {
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        transform: translate(-50%,-50%);
-        top: 50%;
-        left: 50%;
-        overflow: hidden;
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    .header_image .wrapper {
-        height: 100%;
-        width: 100%;
-        display: flex;
-        animation: slide 10s infinite;
-        align-items: center;
-    }
-    
-    .header_image > .container > .wrapper > img {
-        height: 100vw;
-    }
-    
-    .header_image img {
-        width: 100%;
-    }
-    
+
     .header_image .header_image_logo {
-        width: 80vw;
+        width: 70vw;
     }
     
     .features {
-        display: flex;
-        justify-content: center;
+        width: 100vw;
+        margin: 0;
     }
     
     .features > ul{
-        display: flex;
-        font-size: var(--section-text-size);
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
     
     .features > ul > div {
-        width: 35vw;
-        margin: 5vh;
+        width: 70vw;
+        margin: 0vh;
     }
     
     .features i {
-        margin-right: 1.3vw;
-        color: var(--accent-color);
+        margin-right: 1em;
     }
     
     .features li {
         display: flex;
         align-items: center;
     }
-    
-    .about {
-        background-color: var(--navbar-color);
+
+    h1 {
+        width: 100%;
+        text-align: center;
     }
     
     .about_text {
-        width: var(--about-section-size);
-        font-size: var(--section-text-size)
+        width: var(--mobile-about-section-size);
+        font-size: var(--mobile-section-text-size);
     }
     
     .about_image {
-        margin-left: 3vh;
+        margin-left: 0;
+        margin-top: 2vh;
+        width: 90vw;
+    }
+
+    .about_image img {
+        width: 100%;
     }
     
     .section_text {
-        width: var(--section-size);
-        font-size: var(--section-text-size)
+        width: var(--mobile-section-size);
+        font-size: var(--mobile-section-text-size);
     }
     
     .section {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 10vh;
+        width: 100vw;
+        padding: 5vh 0;
+        margin: 0;
+        flex-direction: column;
     }
     
     .section_images {
-        display: flex;
-        width: var(--section-images-w);
-        height: var(--section-images-h);
-        transition: 500ms ease-in-out;
+        width: var(--mobile-section-images-w);
+        height: var(--mobile-section-images-h);
+        margin-bottom: 3vh;
     }
     
     .section_images > .image {
-        width: var(--section-images-image-w);
-        height: 100%;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0.5vw;
-        transition: 500ms ease-in-out;
+        width: var(--mobile-section-images-image-w);
+    }
+
+    .section_images > iframe {
+        width: var(--mobile-section-images-w);
+        height: var(--mobile-section-images-h);
     }
     
     .section_images > .image:hover {
-        width: var(--section-images-hover-w);
-        transition: 500ms ease-in-out;
+        width: var(--mobile-section-images-hover-w);
     
-    }
-    
-    .section_images img {
-        height: 100%;
-        transition: 500ms ease-in-out;
-    }
-    
-    .food, .location {
-        background-color: var(--navbar-color);
     }
     
     .food > .section_images, .location > .section_images {
-        margin-right: 2vw;
+        margin-right: 0vw;
     }
     
     .fun > .section_images {
-        margin-left: 2vw;
+        margin-left: 0vw;
     }
-    
-    .location a:visited {
-        color: var(--accent-color)
+
+    .fun {
+        flex-direction: column-reverse;
     }
 }
