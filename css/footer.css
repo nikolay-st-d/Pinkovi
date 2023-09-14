@@ -1,6 +1,6 @@
 footer {
     height: 15vh;
-    background-color: var(--navbar-color);
+    background-color: var(--footer-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,8 +12,9 @@ footer i{
     margin: 1vh;
     transition: 0.3s ease;
     cursor: pointer;
+    color: var(--footer-text-color);
 }
 
 footer i:hover{
-    color: var(--accent-color);
+    color: var(--footer-button-hover-color);
 }

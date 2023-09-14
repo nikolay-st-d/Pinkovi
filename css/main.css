@@ -2,11 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-    --main-bg-color: rgb(243, 243, 243);
-    --navbar-color: rgb(255, 255, 255);
     --accent-color: rgb(215, 139, 81);
+    --secondary-color: rgb(255, 255, 255);
+    --main-bg-color: rgb(243, 243, 243);
     --text-color: rgb(100, 100, 100);
+    --h1-color: var(--accent-color);
+    --h2-color: var(--accent-color);
+    --navbar-color: var(--secondary-color);
+    --navbar-text-color: var(--text-color);
     --navbar-height: 20vh;
+    --navbar-button-hover-color: var(--accent-color);
+    --navbar-price-button-color: var(--accent-color);
+    --navbar-price-button-text-color: var(--secondary-color);
+    --home-features-icons-color: var(--accent-color);
+    --home-sections-color: var(--secondary-color);
+    --home-location-links-color: var(--accent-color);
+    --contacts-contact-card-bg: var(--secondary-color);
+    --prices-color-1: var(--accent-color);
+    --prices-color-2: var(--secondary-color);
+    --prices-bullet-color: var(--accent-color);
+    --footer-color: var(--secondary-color);
+    --footer-button-hover-color: var(--accent-color);
+    --footer-text-color: var(--text-color);
 }
 
 html {
@@ -23,12 +40,12 @@ body {
 
 h1 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: var(--accent-color);
+    color: var(--h1-color);
 }
 
 h2 {
     font-family: 'Roboto Condensed', sans-serif;
-    color: var(--accent-color);
+    color: var(--h2-color);
 }
 
 button {

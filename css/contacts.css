@@ -19,7 +19,7 @@
     width: 12vw;
     padding: 2em 1em;
     border-radius: 1em;
-    background-color: var(--navbar-color);
+    background-color: var(--contacts-contact-card-bg);
 }
 
 .contact > p {

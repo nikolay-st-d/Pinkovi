@@ -8,6 +8,7 @@ header {
     top: 0;
     z-index: 2;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    color: var(--navbar-text-color);
 }
 
 header > *{
@@ -29,12 +30,12 @@ header > *{
 }
 
 .navbar_buttons > *:hover {
-    color: var(--accent-color);
+    color: var(--navbar-button-hover-color);
 }
 
 .navbar_book > * {
-    background-color: var(--accent-color);
-    color: white;
+    background-color: var(--navbar-price-button-color);
+    color: var(--navbar-price-button-text-color);
     padding: 2vh 4vh;
     border-radius: 10em;
 }

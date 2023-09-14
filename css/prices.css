@@ -18,11 +18,11 @@ th, td {
     padding: 1vh;
     margin: 1vh;
     text-align: center;
-    background-color: var(--navbar-color);
+    background-color: var(--prices-color-2);
 }
 
 .color, .color2 {
-    background-color: var(--accent-color);
+    background-color: var(--prices-color-1);
     color: white;
 }
 
@@ -45,7 +45,7 @@ td {
 
 ul li::before {
     content: "\2022";  
-    color: var(--accent-color); 
+    color: var(--prices-bullet-color); 
     font-weight: bold; 
     display: inline-block; 
     width: 1em; 

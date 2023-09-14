@@ -103,7 +103,7 @@
 
 .features i {
     margin-right: 1.3vw;
-    color: var(--accent-color);
+    color: var(--home-features-icons-color);
 }
 
 .features li {
@@ -112,7 +112,7 @@
 }
 
 .about {
-    background-color: var(--navbar-color);
+    background-color: var(--home-sections-color);
 }
 
 .about_text {
@@ -166,7 +166,7 @@
 }
 
 .food, .location {
-    background-color: var(--navbar-color);
+    background-color: var(--home-sections-color);
 }
 
 .food > .section_images, .location > .section_images {
@@ -178,7 +178,7 @@
 }
 
 .location a:visited {
-    color: var(--accent-color)
+    color: var(--home-location-links-color)
 }
 
 @media (max-width: 600px) {

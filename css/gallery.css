@@ -15,7 +15,7 @@
 
 hr {
     height: 0.1em;
-    background-color: var(--accent-color);
+    background-color: var(--h1-color);
     border: none;
     width: 30vw;
 }
