@@ -3,7 +3,7 @@
 
 :root {
     --main-bg-color: rgb(243, 243, 243);
-    --navbar-color: white;
+    --navbar-color: rgb(255, 255, 255);
     --accent-color: rgb(215, 139, 81);
     --text-color: rgb(100, 100, 100);
     --navbar-height: 20vh;
