@@ -50,3 +50,5 @@ for (let i = 0; i < all_images.length; i++){
         popup.style.display = 'flex'
     })
 }
+
+image.addEventListener('click', close_image)
