@@ -37,3 +37,9 @@ footer i{
 footer i:hover{
     color: var(--footer-button-hover-color);
 }
+
+@media (max-width: 1100px) {
+    footer {
+        height: 20vh;
+    }
+}
