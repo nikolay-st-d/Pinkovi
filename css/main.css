@@ -23,7 +23,7 @@
     --prices-bullet-color: var(--accent-color);
     --footer-color: #0c112a;
     --footer-button-hover-color: var(--accent-color);
-    --footer-text-color: var(--text-color);
+    --footer-text-color: rgb(130, 130, 130);
 }
 
 html {
