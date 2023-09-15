@@ -81,10 +81,11 @@ header > *{
 
     .navbar_languages img {
         width: 5vw;
+        margin: 1vw;
     }
     
     .navbar_buttons > * {
-        margin: 0.5vw;
+        margin: 1vw;
     }
 
     .navbar_buttons {
