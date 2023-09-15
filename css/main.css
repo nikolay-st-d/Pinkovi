@@ -8,8 +8,8 @@
     --text-color: rgb(100, 100, 100);
     --h1-color: var(--accent-color);
     --h2-color: var(--accent-color);
-    --navbar-color: var(--secondary-color);
-    --navbar-text-color: var(--text-color);
+    --navbar-color: #0c112a;
+    --navbar-text-color: #ffffff;
     --navbar-height: 20vh;
     --navbar-button-hover-color: var(--accent-color);
     --navbar-price-button-color: var(--accent-color);
@@ -21,7 +21,7 @@
     --prices-color-1: var(--accent-color);
     --prices-color-2: var(--secondary-color);
     --prices-bullet-color: var(--accent-color);
-    --footer-color: var(--secondary-color);
+    --footer-color: #0c112a;
     --footer-button-hover-color: var(--accent-color);
     --footer-text-color: var(--text-color);
 }
@@ -59,10 +59,10 @@ button {
 }
 
 a {
-    color: var(--text-color);
+    color: var(--navbar-text-color);
 }
 a:visited {
-    color: var(--text-color);
+    color: var(--navbar-text-color);
 }
 
 ul {
