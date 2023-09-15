@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
-    --accent-color: rgb(215, 139, 81);
+    --accent-color: #EC9323;
     --secondary-color: rgb(255, 255, 255);
     --main-bg-color: rgb(243, 243, 243);
     --text-color: rgb(100, 100, 100);
