@@ -177,8 +177,12 @@
     margin-left: 2vw;
 }
 
+.location a{
+    color: var(--home-location-links-color);
+}
+
 .location a:visited {
-    color: var(--home-location-links-color)
+    color: var(--home-location-links-color);
 }
 
 @media (max-width: 600px) {
