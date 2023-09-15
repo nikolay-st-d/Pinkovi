@@ -53,7 +53,7 @@ header > *{
     margin: 1vw;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .hamburger_menu {
         display: block;
         font-size: 1.5em;
@@ -81,10 +81,11 @@ header > *{
 
     .navbar_languages img {
         width: 5vw;
+        margin: 1vw;
     }
     
     .navbar_buttons > * {
-        margin: 0.5vw;
+        margin: 1vw;
     }
 
     .navbar_buttons {

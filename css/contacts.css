@@ -34,7 +34,7 @@ h1 {
     font-size: 3em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1100px) {
     .contacts {
         width: 100vw;
         height: auto;
