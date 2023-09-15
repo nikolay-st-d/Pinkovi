@@ -40,7 +40,7 @@ header > *{
     border-radius: 10em;
 }
 
-.hamburger_menu {
+.hamburger_menu > i{
     display: none;
 }
 
@@ -54,6 +54,12 @@ header > *{
 }
 
 @media (max-width: 1100px) {
+    .mobile_navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     .hamburger_menu {
         display: block;
         font-size: 1.5em;
@@ -73,6 +79,7 @@ header > *{
     
     header > *{
         margin: 1vh;
+        font-size: 0.9em;
     }
     
     .navbar_languages {
@@ -85,15 +92,23 @@ header > *{
     }
     
     .navbar_buttons > * {
-        margin: 1vw;
+        margin: 0.3em;
     }
 
     .navbar_buttons {
-        display: none;
+        height: 0;
+        overflow: hidden;
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease;
     }
     
     .navbar_book > * {
         padding: 1.5vh 2.5vh;
+    }
+
+    .hamburger_menu > i {
+        display: block;
     }
 }
