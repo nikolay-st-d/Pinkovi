@@ -5,6 +5,7 @@ footer {
     align-items: center;
     justify-content: center;
     box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.2);
+    color: var(--footer-text-color);
 }
 
 footer i{
