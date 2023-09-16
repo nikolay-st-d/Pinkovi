@@ -8,7 +8,7 @@
     --text-color: rgb(100, 100, 100);
     --h1-color: var(--accent-color);
     --h2-color: var(--accent-color);
-    --navbar-color: #0c112a;
+    --navbar-color: #1a2845;
     --navbar-text-color: #ffffff;
     --navbar-height: 20vh;
     --navbar-button-hover-color: var(--accent-color);
@@ -21,7 +21,7 @@
     --prices-color-1: var(--accent-color);
     --prices-color-2: var(--secondary-color);
     --prices-bullet-color: var(--accent-color);
-    --footer-color: #0c112a;
+    --footer-color: #1a2845;
     --footer-button-hover-color: var(--accent-color);
     --footer-text-color: rgb(130, 130, 130);
 }
