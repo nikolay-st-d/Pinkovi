@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
 
 :root {
+    --font-size: 1em;
+    --general-font: 'Sofia Sans';
+    --header-font: 'El Messiri';
     --accent-color: #EC9323;
     --secondary-color: rgb(255, 255, 255);
     --main-bg-color: rgb(243, 243, 243);
@@ -34,17 +37,18 @@ html {
 body {
     background-color: var(--main-bg-color);
     margin: 0;
-    font-family: 'Sofia Sans', sans-serif;
+    font-family: var(--general-font), sans-serif;
+    font-size: var(--font-size);
     color: var(--text-color);
 }
 
 h1 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--header-font), sans-serif;
     color: var(--h1-color);
 }
 
 h2 {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: var(--header-font), sans-serif;
     color: var(--h2-color);
 }
 
