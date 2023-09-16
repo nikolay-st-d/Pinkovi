@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
 :root {
     --font-size: 1em;
     --general-font: 'Sofia Sans';
-    --header-font: 'El Messiri';
+    --header-font: 'Roboto Condensed';
     --accent-color: #EC9323;
     --secondary-color: rgb(255, 255, 255);
     --main-bg-color: rgb(243, 243, 243);
