@@ -3,6 +3,7 @@
 
 :root {
     --font-size: 1em;
+    --big-screen-font-size: 1.6em;
     --general-font: 'Sofia Sans';
     --header-font: 'Roboto Condensed';
     --accent-color: #EC9323;
@@ -76,5 +77,11 @@ ul {
 @media (max-width: 1100px) {
     html,body{
         overflow-x: hidden;
+    }
+}
+
+@media (min-width: 1800px) {
+    body {
+        font-size: var(--big-screen-font-size)
     }
 }
