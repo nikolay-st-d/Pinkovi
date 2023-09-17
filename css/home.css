@@ -97,6 +97,8 @@
 }
 
 .features > ul > div {
+    display: flex;
+    justify-content: center;
     width: 35vw;
     margin: 5vh;
 }
