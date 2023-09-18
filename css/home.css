@@ -217,6 +217,7 @@ iframe {
     .features > ul > div {
         width: 70vw;
         margin: 0vh;
+        justify-content: left;
     }
     
     .features i {
