@@ -4,41 +4,24 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/home.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="icon" type="image/png" href="../images/pinkoviicon.png">
-    <title>Hotel Pinkovi - Nessebar</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/navbar.js" defer></script>
+    <link rel="icon" type="image/png" href="images/pinkoviicon.png">
+    <title>Hotel PINKOVI Nessebar</title>
 </head>
 <body>
-    <header>
-        <div class="navbar_logo"><a href="#"><img src="../images/pinkovilogo-en.png"></a></div>
-        <div id="hamburger_menu" class="hamburger_menu"><i class="fa-solid fa-bars"></i></div>
-        <div id="navbar_buttons" class="navbar_buttons">
-            <a href="#about"><button>ABOUT</button></a>
-            <a href="#bistro"><button>BISTRO</button></a>
-            <a href="#entertainment"><button>ENTERTAINMENT</button></a>
-            <a href="#location"><button>LOCATION</button></a>
-            <a href="#"><button>GALLERY</button></a>
-            <a href="#"><button>CONTACTS</button></a>
-        </div>
-        <div class="right">
-            <div class="navbar_languages">
-                <a href="#"><img src="../images/bulgarian.png"></a>
-                <a href="#"><img src="../images/english.png"></a>
-            </div>
-            <div class="navbar_book"><button>PRICES</button></div>
-        </div>
-    </header>
+    <?php include('header_en.php'); ?>
 
     <div class="header_image">
-        <img class="header_image_logo" src="../images/pinkovilogowhite.png">
+        <img class="header_image_logo" src="images/pinkovilogo-bg-big.png">
         <div class="container">
             <div class="wrapper">
-                <img src="../images/header.jpg">
-                <img src="../images/header2.jpg">
-                <img src="../images/header3.jpg">
+                <img src="images/header_1.webp" alt="Room in hotel PINKOVI">
+                <img src="images/header_2.webp" alt="The beach in front of hotel PINKOVI">
+                <img src="images/header_3.webp" alt="The sea in front of hotel PINKOVI">
             </div>
         </div>
     </div>
@@ -51,25 +34,29 @@
             <p>Despite the growing interest in the region, Family Hotel PINKOVI offers a peaceful and serene environment, providing everything you need for a fantastic beach vacation.</p>
         </div>
         <div class="about_image">
-            <img src="../images/about_image.jpg">
+            <img src="images/about_image.jpg">
         </div>
     </div>
 
     <div id="features" class="features">
         <ul>
             <div>
-                <li><i class="fa-solid fa-bed"></i><p>Double rooms</p></li>
-                <li><i class="fa-solid fa-bed"></i><p>Double rooms with one extra bed</p></li>
-                <li><i class="fa-solid fa-bed"></i><p>Double rooms with two extra beds</p></li>
-                <li><i class="fa-solid fa-bed"></i><p>One apartment /2+2/</p></li>
-                <li><i class="fa-solid fa-bed"></i><p>Two garret studios with a kitchenette – bedroom with two extra beds</p></li>
+                <div>
+                    <li><i class="fa-solid fa-bed"></i><p>Double rooms</p></li>
+                    <li><i class="fa-solid fa-bed"></i><p>Double rooms with one extra bed</p></li>
+                    <li><i class="fa-solid fa-bed"></i><p>Double rooms with two extra beds</p></li>
+                    <li><i class="fa-solid fa-bed"></i><p>One apartment /2+2/</p></li>
+                    <li><i class="fa-solid fa-bed"></i><p>Two garret studios with a kitchenette – bedroom with two extra beds</p></li>
+                </div>
             </div>
             <div>
-                <li><i class="fa-solid fa-wifi"></i><p>Free WiFi</p></li>
-                <li><i class="fa-solid fa-lock"></i><p>Safe (1.00 EUR/day)</p></li>
-                <li><i class="fa-solid fa-square-parking"></i><p>Free parking</p></li>
-                <li><i class="fa-solid fa-umbrella-beach"></i><p>A free sunbed and parasol on the terrace above the beach</p></li>
-                <li><i class="fa-solid fa-utensils"></i><p>A bistro</p></li>
+                <div>
+                    <li><i class="fa-solid fa-wifi"></i><p>Free WiFi</p></li>
+                    <li><i class="fa-solid fa-lock"></i><p>Safe (1.00 EUR/day)</p></li>
+                    <li><i class="fa-solid fa-square-parking"></i><p>Free parking</p></li>
+                    <li><i class="fa-solid fa-umbrella-beach"></i><p>A free sunbed and parasol on the terrace above the beach</p></li>
+                    <li><i class="fa-solid fa-utensils"></i><p>A bistro</p></li>
+                </div>
             </div>
         </ul>
     </div>
@@ -77,16 +64,16 @@
     <div id="bistro" class="section food">
         <div class="section_images">
             <div class="image">
-                <img src="../images/bistro_1.jpg">
+                <img src="images/bistro_1.jpg">
             </div>
             <div class="image">
-                <img src="../images/bistro_2.jpg">
+                <img src="images/bistro_2.jpg">
             </div>
             <div class="image">
-                <img src="../images/bistro_3.jpg">
+                <img src="images/bistro_3.jpg">
             </div>
             <div class="image">
-                <img src="../images/bistro_4.jpg">
+                <img src="images/bistro_4.jpg">
             </div>
         </div>
         <div class="section_text">
@@ -105,16 +92,16 @@
         </div>
         <div class="section_images">
             <div class="image">
-                <img src="../images/fun_1.jpg">
+                <img src="images/fun_1.jpg">
             </div>
             <div class="image">
-                <img src="../images/fun_2.jpg">
+                <img src="images/fun_2.jpg">
             </div>
             <div class="image">
-                <img src="../images/fun_3.jpg">
+                <img src="images/fun_3.jpg">
             </div>
             <div class="image">
-                <img src="../images/fun_4.jpg">
+                <img src="images/fun_4.jpg">
             </div>
         </div>
     </div>
@@ -132,11 +119,6 @@
         </div>
     </div>
 
-    <footer>
-        <a href="mailto:pinkovh@abv.bg"><i class="fa-solid fa-envelope"></i></a>
-        <a href="tel:+359894737399"><i class="fa-solid fa-phone"></i></a>
-        <a href="https://www.facebook.com/familyhotelpinkovi/?ref=embed_page" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://goo.gl/maps/AfRPjQWB6pB1MDTz7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-    </footer>
+    <?php include('footer_en.php'); ?>
 </body>
 </html>
