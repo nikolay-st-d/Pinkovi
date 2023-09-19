@@ -12,6 +12,9 @@
     <script type="text/javascript" src="js/navbar.js" defer></script>
     <link rel="icon" type="image/png" href="images/pinkoviicon.png">
     <title>Галерия | Хотел ПИНКОВИ - Несебър</title>
+    <meta name="description" content="Галерия снимки от Хотел ПИНКОВИ и околностите, щракнете върху снимка, за да увеличите">
+    <meta name="language" content="Български">
+    <meta http-equiv="content-language" content="bg">
 </head>
 <body>
 

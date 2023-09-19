@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+rewritecond %{http_host} ^hotelpinkovi.com [nc]
+rewriterule ^(.*)$ https://www.hotelpinkovi.com/$1 [r=301,nc]
+
+ErrorDocument 404 /404.php
+
+# Permanent URL redirects
+Redirect 301 /pricing.php /prices.php
+Redirect 301 /about.php /index.php
+Redirect 301 /offer.php /index.php
+Redirect 301 /beach.php /index.php
+Redirect 301 /bistro.php /index.php
+Redirect 301 /transport.php /index.php
+
+Redirect 301 /pricing_en.php /prices-en.php
+Redirect 301 /about_en.php /index-en.php
+Redirect 301 /offer_en.php /index-en.php
+Redirect 301 /beach_en.php /index-en.php
+Redirect 301 /bistro_en.php /index-en.php
+Redirect 301 /transport_en.php /index-en.php
+Redirect 301 /contacts_en.php /contacts-en.php

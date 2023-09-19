@@ -11,6 +11,9 @@
     <script type="text/javascript" src="js/navbar.js" defer></script>
     <link rel="icon" type="image/png" href="images/pinkoviicon.png">
     <title>Цени | Хотел ПИНКОВИ - Несебър</title>
+    <meta name="description" content="Цени и условия за резервация на Хотел ПИНКОВИ. Моля, прочетете усовията преди да резервирате при нас">
+    <meta name="language" content="Български">
+    <meta http-equiv="content-language" content="bg">
 </head>
 <body>
     <?php include('header.php'); ?>

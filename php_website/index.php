@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/main.css">
     <script type="text/javascript" src="js/navbar.js" defer></script>
     <link rel="icon" type="image/png" href="images/pinkoviicon.png">
-    <title>Хотел ПИНКОВИ - Несебър</title>
+    <title>Хотел ПИНКОВИ и бистро - Несебър</title>
+    <meta name="description" content="Хотел ПИНКОВИ в град Несебър, в непосредствена близост до Равда, се намира на тих и спокоен залив, само на няколко метра от плажа.">
+    <meta name="language" content="Български">
+    <meta http-equiv="content-language" content="bg">
 </head>
 <body>
     <?php include('header.php'); ?>

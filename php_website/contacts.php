@@ -11,6 +11,9 @@
     <script type="text/javascript" src="js/navbar.js" defer></script>
     <link rel="icon" type="image/png" href="images/pinkoviicon.png">
     <title>Контакти | Хотел ПИНКОВИ - Несебър</title>
+    <meta name="description" content="Контакт с Хотел ПИНКОВИ в град Несебър, свържете се с нас за да получите допълнителна информация.">
+    <meta name="language" content="Български">
+    <meta http-equiv="content-language" content="bg">
 </head>
 <body>
     <?php include('header.php'); ?>
