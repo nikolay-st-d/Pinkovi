@@ -52,7 +52,7 @@
             <div>
                 <div>
                     <li><i class="fa-solid fa-wifi"></i><p>Free WiFi</p></li>
-                    <li><i class="fa-solid fa-lock"></i><p>Safe (1.00 EUR/day)</p></li>
+                    <li><i class="fa-solid fa-lock"></i><p>Safe</p></li>
                     <li><i class="fa-solid fa-square-parking"></i><p>Free parking</p></li>
                     <li><i class="fa-solid fa-umbrella-beach"></i><p>A free sunbed and parasol on the terrace above the beach</p></li>
                     <li><i class="fa-solid fa-utensils"></i><p>A bistro</p></li>
