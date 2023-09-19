@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+:root {
+    --font-size: 1em;
+    --big-screen-font-size: 1.3em;
+    --general-font: 'Sofia Sans';
+    --header-font: 'Roboto Condensed';
+    --accent-color: #ffa517;
+    --secondary-color: rgb(255, 255, 255);
+    --main-bg-color: rgb(243, 243, 243);
+    --text-color: rgb(100, 100, 100);
+    --h1-color: var(--accent-color);
+    --h2-color: var(--accent-color);
+    --navbar-color: #1a2845;
+    --navbar-text-color: #ffffff;
+    --navbar-height: 15vh;
+    --navbar-button-hover-color: var(--accent-color);
+    --navbar-price-button-color: var(--accent-color);
+    --navbar-price-button-text-color: var(--secondary-color);
+    --home-features-icons-color: var(--accent-color);
+    --home-sections-color: var(--secondary-color);
+    --home-location-links-color: var(--accent-color);
+    --contacts-contact-card-bg: var(--secondary-color);
+    --prices-color-1: var(--accent-color);
+    --prices-color-2: var(--secondary-color);
+    --prices-bullet-color: var(--accent-color);
+    --footer-color: #1a2845;
+    --footer-button-hover-color: var(--accent-color);
+    --footer-text-color: rgb(162, 162, 162);
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--navbar-height);
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: 0;
+    font-family: var(--general-font), sans-serif;
+    font-size: var(--font-size);
+    color: var(--text-color);
+}
+
+h1 {
+    font-family: var(--header-font), sans-serif;
+    color: var(--h1-color);
+}
+
+h2 {
+    font-family: var(--header-font), sans-serif;
+    color: var(--h2-color);
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a {
+    color: var(--navbar-text-color);
+}
+a:visited {
+    color: var(--navbar-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 1100px) {
+    html,body{
+        overflow-x: hidden;
+    }
+}
+
+@media (min-width: 1800px) {
+    body {
+        font-size: var(--big-screen-font-size)
+    }
+}

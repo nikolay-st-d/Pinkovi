@@ -1,0 +1,79 @@
+.prices {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 55vw;
+    height: 80vh;
+    border-spacing: 0.5vh;
+}
+
+.shrink {
+    width: 8vw;
+}
+
+th, td {
+    padding: 1vh;
+    margin: 1vh;
+    text-align: center;
+    background-color: var(--prices-color-2);
+}
+
+.color, .color2 {
+    background-color: var(--prices-color-1);
+    color: white;
+}
+
+.color2 {
+    opacity: 80%;
+}
+
+td {
+    border-radius: 0.6em;
+}
+
+.prices_text {
+    display: flex;
+    justify-content: center;
+}
+
+.prices_text > div {
+    width: 38vw;
+}
+
+ul li::before {
+    content: "\2022";  
+    color: var(--prices-bullet-color); 
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+@media (max-width: 1100px) {    
+    table {
+        width: 30vw;
+        height: 80vh;
+    }
+    
+    .shrink, .ver{
+        width: 10vw;
+        text-orientation: sideways;
+        writing-mode: vertical-lr;
+    }
+    
+    th, td {
+        padding: 0.8vh;
+    }
+    
+    .prices_text > div {
+        width: 90vw;
+    }
+
+    h2 {
+        width: 100%;
+        text-align: center;
+    }
+}
