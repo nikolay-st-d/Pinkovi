@@ -13,7 +13,7 @@
     <title>Contacts | Hotel PINKOVI Nessebar</title>
 </head>
 <body>
-    <?php include('header_en.php'); ?>
+    <?php include('header-en.php'); ?>
 
     <div class="contacts">
         <div class="contacts_text">
@@ -41,6 +41,6 @@
         </div>
     </div>
 
-    <?php include('footer_en.php'); ?>
+    <?php include('footer-en.php'); ?>
 </body>
 </html>

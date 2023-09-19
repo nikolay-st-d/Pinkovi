@@ -1,6 +1,6 @@
 <header id="header">
 
-        <div class="navbar_logo"><a href="index.php"><img src="images/pinkovilogo-bg.png"></a></div>
+        <div class="navbar_logo"><a href="https://www.hotelpinkovi.com"><img src="images/pinkovilogo-bg.png" alt="logo Pinkovi"></a></div>
 
         <div id="navbar_buttons" class="navbar_buttons">
 
@@ -26,9 +26,9 @@
 
                 <div class="navbar_languages">
 
-                    <a href="index.php"><img src="images/bulgarian.png"></a>
+                    <a href="https://www.hotelpinkovi.com"><img src="images/bulgarian.png" alt="Български"></a>
 
-                    <a href="index_en.php"><img src="images/english.png"></a>
+                    <a href="index-en.php"><img src="images/english.png" alt="English"></a>
 
                 </div>
 

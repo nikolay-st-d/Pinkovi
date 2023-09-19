@@ -30,18 +30,18 @@
             <hr />
         </div>
         <div class="images">
-            <div><img src="gallery/pinkovi_01.jpg"></div>
-            <div><img src="gallery/pinkovi_02.jpg"></div>
-            <div><img src="gallery/pinkovi_03.jpg"></div>
-            <div><img src="gallery/pinkovi_04.jpg"></div>
-            <div><img src="gallery/pinkovi_05.jpg"></div>
-            <div><img src="gallery/pinkovi_06.jpg"></div>
-            <div><img src="gallery/pinkovi_07.jpg"></div>
-            <div><img src="gallery/pinkovi_08.jpg"></div>
-            <div><img src="gallery/pinkovi_09.jpg"></div>
-            <div><img src="gallery/pinkovi_10.jpg"></div>
-            <div><img src="gallery/pinkovi_11.jpg"></div>
-            <div><img src="gallery/pinkovi_12.jpg"></div>
+            <div><img src="gallery/pinkovi_01.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_02.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_03.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_04.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_05.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_06.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_07.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_08.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_09.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_10.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_11.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
+            <div><img src="gallery/pinkovi_12.jpg" alt="Хотел ПИНКОВИ - Несебър, Равда"></div>
         </div>
     </div>
     

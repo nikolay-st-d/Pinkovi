@@ -13,10 +13,10 @@
     <title>Hotel PINKOVI Nessebar</title>
 </head>
 <body>
-    <?php include('header_en.php'); ?>
+    <?php include('header-en.php'); ?>
 
     <div class="header_image">
-        <img class="header_image_logo" src="images/pinkovilogo-en-big.png">
+        <img class="header_image_logo" src="images/pinkovilogo-en-big.png" alt="Logo hotel PINKOVI">
         <div class="container">
             <div class="wrapper">
                 <img src="images/header_1.webp" alt="Room in hotel PINKOVI">
@@ -64,16 +64,16 @@
     <div id="bistro" class="section food">
         <div class="section_images">
             <div class="image">
-                <img src="images/bistro_1.jpg">
+                <img src="images/bistro_1.jpg" alt="Bistro PINKOVI offers delicios sea food">
             </div>
             <div class="image">
-                <img src="images/bistro_2.jpg">
+                <img src="images/bistro_2.jpg" alt="Bistro PINKOVI offers delicios sea food">
             </div>
             <div class="image">
-                <img src="images/bistro_3.jpg">
+                <img src="images/bistro_3.jpg" alt="Bistro PINKOVI offers delicios sea food">
             </div>
             <div class="image">
-                <img src="images/bistro_4.jpg">
+                <img src="images/bistro_4.jpg" alt="Bistro PINKOVI offers delicios sea food">
             </div>
         </div>
         <div class="section_text">
@@ -92,16 +92,16 @@
         </div>
         <div class="section_images">
             <div class="image">
-                <img src="images/fun_1.jpg">
+                <img src="images/fun_1.jpg" alt="Fun on the beach, right in front of the hotel">
             </div>
             <div class="image">
-                <img src="images/fun_2.jpg">
+                <img src="images/fun_2.jpg" alt="Fun on the beach, right in front of the hotel">
             </div>
             <div class="image">
-                <img src="images/fun_3.jpg">
+                <img src="images/fun_3.jpg" alt="Fun on the beach, right in front of the hotel">
             </div>
             <div class="image">
-                <img src="images/fun_4.jpg">
+                <img src="images/fun_4.jpg" alt="Fun on the beach, right in front of the hotel">
             </div>
         </div>
     </div>
@@ -119,6 +119,6 @@
         </div>
     </div>
 
-    <?php include('footer_en.php'); ?>
+    <?php include('footer-en.php'); ?>
 </body>
 </html>

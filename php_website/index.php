@@ -16,7 +16,7 @@
     <?php include('header.php'); ?>
 
     <div class="header_image">
-        <img class="header_image_logo" src="images/pinkovilogo-bg-big.png">
+        <img class="header_image_logo" src="images/pinkovilogo-bg-big.png" alt="Лого хотел ПИНКОВИ">
         <div class="container">
             <div class="wrapper">
                 <img src="images/header_1.webp" alt="Стая в Хотел ПИНКОВИ">
@@ -34,7 +34,7 @@
             <p>Въпреки нарастващия интерес към региона, семеен хотел “ПИНКОВИ” е тихо и уютно място, предлагащо необходимите условия за Вашата пълноценна морска ваканция.</p>
         </div>
         <div class="about_image">
-            <img src="images/about_image.jpg">
+            <img src="images/about_image.jpg" alt="Хотел Пинкови">
         </div>
     </div>
 
@@ -64,16 +64,16 @@
     <div id="bistro" class="section food">
         <div class="section_images">
             <div class="image">
-                <img src="images/bistro_1.jpg">
+                <img src="images/bistro_1.jpg" alt="Бистро Пинкови - рибни специалитети">
             </div>
             <div class="image">
-                <img src="images/bistro_2.jpg">
+                <img src="images/bistro_2.jpg" alt="Бистро Пинкови - рибни специалитети">
             </div>
             <div class="image">
-                <img src="images/bistro_3.jpg">
+                <img src="images/bistro_3.jpg" alt="Бистро Пинкови - рибни специалитети">
             </div>
             <div class="image">
-                <img src="images/bistro_4.jpg">
+                <img src="images/bistro_4.jpg" alt="Бистро Пинкови - рибни специалитети">
             </div>
         </div>
         <div class="section_text">
@@ -94,16 +94,16 @@
         </div>
         <div class="section_images">
             <div class="image">
-                <img src="images/fun_1.jpg">
+                <img src="images/fun_1.jpg" alt="Възможности за забавления">
             </div>
             <div class="image">
-                <img src="images/fun_2.jpg">
+                <img src="images/fun_2.jpg" alt="Възможности за забавления">
             </div>
             <div class="image">
-                <img src="images/fun_3.jpg">
+                <img src="images/fun_3.jpg" alt="Възможности за забавления">
             </div>
             <div class="image">
-                <img src="images/fun_4.jpg">
+                <img src="images/fun_4.jpg" alt="Възможности за забавления">
             </div>
         </div>
     </div>
