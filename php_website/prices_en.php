@@ -4,33 +4,16 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/book.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <link rel="icon" type="image/png" href="../images/pinkoviicon.png">
-    <title>Book | Hotel PINKOVI Nessebar</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/prices.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/navbar.js" defer></script>
+    <link rel="icon" type="image/png" href="images/pinkoviicon.png">
+    <title>Prices | Hotel PINKOVI Nessebar</title>
 </head>
 <body>
-    <header>
-        <div class="navbar_logo"><a href="#"><img src="../images/pinkovilogo.png"></a></div>
-        <div id="hamburger_menu" class="hamburger_menu"><i class="fa-solid fa-bars"></i></div>
-        <div id="navbar_buttons" class="navbar_buttons">
-            <a href="#about"><button>ABOUT</button></a>
-            <a href="#bistro"><button>BISTRO</button></a>
-            <a href="#entertainment"><button>ENTERTAINMENT</button></a>
-            <a href="#location"><button>LOCATION AND TRANSPORT</button></a>
-            <a href="#"><button>GALLERY</button></a>
-            <a href="#"><button>CONTACTS</button></a>
-        </div>
-        <div class="right">
-            <div class="navbar_languages">
-                <a href="#"><img src="../images/bulgarian.png"></a>
-                <a href="#"><img src="../images/english.png"></a>
-            </div>
-            <div class="navbar_book"><button>PRICES</button></div>
-        </div>
-    </header>
+    <?php include('header_en.php'); ?>
 
     <div class="prices">
         <h1>Prices</h1>
@@ -49,7 +32,7 @@
                 </tr>
                 <tr>
                     <td rowspan="2" class="color shrink">Double room</td>
-                    <td class="color2">sea view</td>
+                    <td class="color2 ver">sea view</td>
                     <td>100</td>
                     <td>120</td>
                     <td>145</td>
@@ -57,7 +40,7 @@
                     <td>100</td>
                 </tr>
                 <tr>
-                    <td class="color2">side view</td>
+                    <td class="color2 ver">side view</td>
                     <td>95</td>
                     <td>115</td>
                     <td>135</td>
@@ -65,8 +48,8 @@
                     <td>95</td>
                 </tr>
                 <tr>
-                    <td rowspan="2" class="color shrink">Double room with extra bed</td>
-                    <td class="color2">sea view</td>
+                    <td rowspan="2" class="color shrink">Double room with an extra bed</td>
+                    <td class="color2 ver">sea view</td>
                     <td>125</td>
                     <td>140</td>
                     <td>170</td>
@@ -74,7 +57,7 @@
                     <td>125</td>
                 </tr>
                 <tr>
-                    <td class="color2">side view</td>
+                    <td class="color2 ver">side view</td>
                     <td>115</td>
                     <td>130</td>
                     <td>160</td>
@@ -83,7 +66,7 @@
                 </tr>
                 <tr>
                     <td class="color shrink">Double room with two extra beds</td>
-                    <td class="color2">sea view</td>
+                    <td class="color2 ver">sea view</td>
                     <td>140</td>
                     <td>160</td>
                     <td>185</td>
@@ -92,7 +75,7 @@
                 </tr>
                 <tr>
                     <td class="color shrink">Apartment (2+2)</td>
-                    <td class="color2">sea view</td>
+                    <td class="color2 ver">sea view/td>
                     <td>150</td>
                     <td>200</td>
                     <td>240</td>
@@ -101,7 +84,7 @@
                 </tr>
                 <tr>
                     <td class="color shrink">Studio (2+2)</td>
-                    <td class="color2">sea view</td>
+                    <td class="color2 ver">sea view</td>
                     <td>130</td>
                     <td>170</td>
                     <td>190</td>
@@ -145,11 +128,6 @@
         </div>
     </div>
 
-    <footer>
-        <a href="mailto:pinkovh@abv.bg"><i class="fa-solid fa-envelope"></i></a>
-        <a href="tel:+359894737399"><i class="fa-solid fa-phone"></i></a>
-        <a href="https://www.facebook.com/familyhotelpinkovi/?ref=embed_page" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://goo.gl/maps/AfRPjQWB6pB1MDTz7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-    </footer>
+    <?php include('footer_en.php'); ?>
 </body>
 </html>
