@@ -1,20 +1,20 @@
 <header id="header">
 
-        <div class="navbar_logo"><a href="/new/"><img src="images/pinkovilogo-bg.png"></a></div>
+        <div class="navbar_logo"><a href="index_en.php"><img src="images/pinkovilogo-bg.png"></a></div>
 
         <div id="navbar_buttons" class="navbar_buttons">
 
-            <a href="index.php#about"><button>ABOUT</button></a>
+            <a href="index_en.php#about"><button>ABOUT</button></a>
 
-            <a href="index.php#bistro"><button>BISTRO</button></a>
+            <a href="index_en.php#bistro"><button>BISTRO</button></a>
 
-            <a href="index.php#entertainment"><button>ENTERTAINMENT</button></a>
+            <a href="index_en.php#entertainment"><button>ENTERTAINMENT</button></a>
 
-            <a href="index.php#location"><button>LOCATION</button></a>
+            <a href="index_en.php#location"><button>LOCATION</button></a>
 
-            <a href="gallery.php"><button>GALLERY</button></a>
+            <a href="gallery_en.php"><button>GALLERY</button></a>
 
-            <a href="contacts.php"><button>CONTACTS</button></a>
+            <a href="contacts_en.php"><button>CONTACTS</button></a>
 
         </div>
 
@@ -32,7 +32,7 @@
 
                 </div>
 
-                <div class="navbar_book"><a href="prices.php"><button>BOOK</button></a></div>
+                <div class="navbar_book"><a href="prices_en.php"><button>BOOK</button></a></div>
 
             </div>
 
