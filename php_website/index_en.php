@@ -16,7 +16,7 @@
     <?php include('header_en.php'); ?>
 
     <div class="header_image">
-        <img class="header_image_logo" src="images/pinkovilogo-bg-big.png">
+        <img class="header_image_logo" src="images/pinkovilogo-en-big.png">
         <div class="container">
             <div class="wrapper">
                 <img src="images/header_1.webp" alt="Room in hotel PINKOVI">
