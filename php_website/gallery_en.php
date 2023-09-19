@@ -4,42 +4,25 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/navbar.css">
-    <link rel="stylesheet" href="../css/gallery.css">
-    <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/main.css">
-    <script type="text/javascript" src="../js/gallery.js" defer></script>
-    <link rel="icon" type="image/png" href="../images/pinkoviicon.png">
-    <title>Book | Hotel PINKOVI Nessebar</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="js/gallery.js" defer></script>
+    <script type="text/javascript" src="js/navbar.js" defer></script>
+    <link rel="icon" type="image/png" href="images/pinkoviicon.png">
+    <title>Gallery | Hotel PINKOVI Nessebar</title>
 </head>
 <body>
 
     <div id="popup">
         <div id="left"><i class="fa-solid fa-chevron-left"></i></div>
-        <img id="image" src="../images/about_image.jpg">
+        <img id="image" src="images/about_image.jpg">
         <div id="right"><i class="fa-solid fa-chevron-right"></i></div>
         <div class="close"><i id="close" class="fa-solid fa-xmark"></i></div>
     </div>
 
-    <header>
-        <div class="navbar_logo"><a href="#"><img src="../images/pinkovilogo.png"></a></div>
-        <div id="hamburger_menu" class="hamburger_menu"><i class="fa-solid fa-bars"></i></div>
-        <div id="navbar_buttons" class="navbar_buttons">
-            <a href="#about"><button>ABOUT</button></a>
-            <a href="#bistro"><button>BISTRO</button></a>
-            <a href="#entertainment"><button>ENTERTAINMENT</button></a>
-            <a href="#location"><button>LOCATION AND TRANSPORT</button></a>
-            <a href="#"><button>GALLERY</button></a>
-            <a href="#"><button>CONTACTS</button></a>
-        </div>
-        <div class="right">
-            <div class="navbar_languages">
-                <a href="#"><img src="../images/bulgarian.png"></a>
-                <a href="#"><img src="../images/english.png"></a>
-            </div>
-            <div class="navbar_book"><button>PRICES</button></div>
-        </div>
-    </header>
+    <?php include('header_en.php'); ?>
 
     <div class="gallery">
         <div>
@@ -47,27 +30,22 @@
             <hr />
         </div>
         <div class="images">
-            <div><img src="../images/about_image.jpg"></div>
-            <div><img src="../images/bistro_1.jpg"></div>
-            <div><img src="../images/bistro_2.jpg"></div>
-            <div><img src="../images/bistro_3.jpg"></div>
-            <div><img src="../images/bistro_4.jpg"></div>
-            <div><img src="../images/fun_1.jpg"></div>
-            <div><img src="../images/fun_2.jpg"></div>
-            <div><img src="../images/fun_3.jpg"></div>
-            <div><img src="../images/fun_4.jpg"></div>
-            <div><img src="../images/header.jpg"></div>
-            <div><img src="../images/header2.jpg"></div>
-            <div><img src="../images/header3.jpg"></div>
+            <div><img src="gallery/pinkovi_01.jpg"></div>
+            <div><img src="gallery/pinkovi_02.jpg"></div>
+            <div><img src="gallery/pinkovi_03.jpg"></div>
+            <div><img src="gallery/pinkovi_04.jpg"></div>
+            <div><img src="gallery/pinkovi_05.jpg"></div>
+            <div><img src="gallery/pinkovi_06.jpg"></div>
+            <div><img src="gallery/pinkovi_07.jpg"></div>
+            <div><img src="gallery/pinkovi_08.jpg"></div>
+            <div><img src="gallery/pinkovi_09.jpg"></div>
+            <div><img src="gallery/pinkovi_10.jpg"></div>
+            <div><img src="gallery/pinkovi_11.jpg"></div>
+            <div><img src="gallery/pinkovi_12.jpg"></div>
         </div>
     </div>
     
 
-    <footer>
-        <a href="mailto:pinkovh@abv.bg"><i class="fa-solid fa-envelope"></i></a>
-        <a href="tel:+359894737399"><i class="fa-solid fa-phone"></i></a>
-        <a href="https://www.facebook.com/familyhotelpinkovi/?ref=embed_page" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-        <a href="https://goo.gl/maps/AfRPjQWB6pB1MDTz7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-    </footer>
+    <?php include('footer_en.php'); ?>
 </body>
 </html>
