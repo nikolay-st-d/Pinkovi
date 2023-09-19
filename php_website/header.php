@@ -1,6 +1,6 @@
 <header id="header">
 
-        <div class="navbar_logo"><a href="/new/"><img src="images/pinkovilogo-bg.png"></a></div>
+        <div class="navbar_logo"><a href="index.php"><img src="images/pinkovilogo-bg.png"></a></div>
 
         <div id="navbar_buttons" class="navbar_buttons">
 
