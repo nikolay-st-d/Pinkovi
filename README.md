@@ -1,5 +1,5 @@
 # Hotel Pinkovi
-A responsive and user-friendly frontend for Hotel Pinkovi’s website.
+Hotel Pinkovi’s responsive and user-friendly website.
 
 Website: www.hotelpinkovi.com
 
